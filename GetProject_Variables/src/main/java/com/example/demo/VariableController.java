@@ -37,12 +37,12 @@ public class VariableController {
 		return this.myBoolean;
 	}
 	
-	@GetMapping("/number")
+	@GetMapping("/double")
 	public double getDouble() {
 		return this.myDouble;
 	}
 	
-	@GetMapping("/number")
+	@GetMapping("/float")
 	public float  getFloat() {
 		return this.myFloat;
 	}
