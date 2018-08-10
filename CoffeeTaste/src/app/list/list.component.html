@@ -2,5 +2,6 @@
 <div *ngFor="let coffee of coffeeList">
   <!-- {{coffee.source}} way 1 -->
   {{coffee.id}}:{{coffee.source}}:{{coffee.tasteGood}}
+  <button (click)="deleteCoffee(coffee.id)">X</button>
   <br>
 </div>
